@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    height: 100vh;
+    font-family: 'Open sans', sans-serif;
+    background-image: url("img5.png");
+    background-color: #F6F3EE;
+    background-position: center;
+    background-size: cover;
+    font-size: 125%;
+    padding: 0px 40px 40px 40px;
+    text-align: center; 
+    background-repeat: no-repeat;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 300%;
+    color: #555B53;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+}
+
+#input {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 108%;
+    color: #555B53;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#text {
+    width: 100%;
+    height: 170px;
+    font-size: 125%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border: 2px solid #555B53;
+    margin: 0;
+    overflow: scroll;
+}
+
+#fonts {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: #555B53;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btt {
+    font-size: 100%;
+    font-weight: bold;
+    color:#555B53;
+    border: 1px solid #555B53;
+    border-radius: 8px;
+}
+/* css cho class này cho button */
+.btt { 
+    font-size: 100%;
+    font-weight: bold;
+    color:#555B53;
+    border: 1px solid #555B53;
+    border-radius: 8px;
+}
+
+
+input.submit:hover {
+    background-color: #665544;
+}
+
+#output {
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    opacity: 0.8;
+    border: 2px solid #555B53;
+    border-color: #555B53;
+    overflow: scroll;
+}
+
+footer {
+   font-size: 80%; 
+   font-style: italic;
+   color: #555B53;
+}
